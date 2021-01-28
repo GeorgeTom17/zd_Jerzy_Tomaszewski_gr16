@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE library [
+<!ELEMENT library (store+)>
+<!ELEMENT store (shelf+)>
+<!ATTLIST store science CDATA #REQUIRED>
+<!ELEMENT shelf (book*, magazine*)>
+<!ELEMENT book (title, author)>
+<!ELEMENT magazine (title, author)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+]>
+<library>
+	<store science="Computer Science">
+	<shelf>
+	<book>
+		<title> Wstęp do Algorytmow</title>
+		<author> T.H. Cormen </author>
+	</book>
+	</shelf>
+	<shelf>
+	<magazine>
+		<title> Wstęp do Algorytmow</title>
+		<author> T.H. Cormen </author>
+	</magazine>
+	</shelf>
+	<shelf>
+	</shelf>
+	</store>
+</library>

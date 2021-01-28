@@ -1,0 +1,42 @@
+Jerzy Tomaszewski grupa 16
+
+1. Jaką największą liczbę całkowitą można zapisać na: (odpowiedzi są w systemie dziesiątkowym)
+	a)12 cyfrach binarnych ?
+	2^(12) - 1 = 4095
+
+	b)7 cyfrach ósemkowych ?
+	8^(7) - 1 = 2097151
+
+	c)10 cyfrach szesnastkowych ?
+	16^(10) - 1  
+
+2. Znajdź potrzebną informację i wytłumacz własnymi słowami, jaka była informatyczna przyczyna katastrofy rakiery Arianne 5.
+Prędkość rakiety była konwertowana z zapisu na 64 bitach na zapis na 16 bitach. Przez to największa liczba możliwa do zapisania stała się znacznie mniejsza. 
+W pewnym momencie zmienna osiągnęła wartość większą niż dało się to zapisać na 16 bitach i wystąpił overflow. 
+Na podstawie tej informacji system uznał, że należy skorygować kurs co skończyło się katastrofą.
+
+
+3. Oblicz wartość dziesiętną następujących liczb zmiennoprzecinkowych: (/a\ oznacza tutaj system liczbowy)
+	a)mantysa=111, cecha=101
+	x = (1,111)/2\ * 2^(-1) = (1,875)/10\ * 2^(-1) = (0,9375)/10\
+
+	b)mantysa=110, cecha=010
+	x = (1,110)/2\ * 2^(2) = (1,75)/10\ * 2^(2) = (7)/10\
+
+	c)mantysa=101, cecha=110
+	x = (1,101)/2\ * 2^(-2) = (1,625)/10\ * 2^(-2) = (0,40625)/10\
+
+4. Zapisz swoje imię i nazwisko przy użyciu kodu ASCII.
+binary : 001001010 001100101 001110010 001111010 001111001 000100000 001010100 001101111 001101101 001100001 001110011 001111010 0001100101 001110111 001110011 0001101011 001101001
+octal : 112 145 162 172 171 040 124 157 155 141 163 172 145 167 163 153 151
+
+
+5. Przy użyciu modelu RGB, w którym każda składowa reprezentowana jest liczbą binarną, zapisz następujące kolory:
+	a)biały
+	R: 11111111, G: 11111111, B: 11111111
+
+	b)szary(dowolny odcień)
+	R: 10101010, G: 10101010, B: 10101010
+
+	c)niebieski
+	R: 0, G: 0, B: 11111111

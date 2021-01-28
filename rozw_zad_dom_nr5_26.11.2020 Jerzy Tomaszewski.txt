@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<!DOCTYPE store[
+<!ELEMENT store (section+)>
+<!ELEMENT section (shelf+)>
+<!ATTLIST section type CDATA #REQUIRED>
+<!ELEMENT shelf (product*)>
+<!ELEMENT product (nazwa, cena, ilosc_w_magazynie)>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT cena (#PCDATA)>
+<!ELEMENT ilosc_w_magazynie (#PCDATA)>
+]>
+
+<store>
+	<section type="spozywcze">
+	<shelf>
+	<product>
+		<nazwa> Pieczywo </nazwa>
+		<cena> 3,20 </cena>
+		<ilosc_w_magazynie> 15 </ilosc_w_magazynie>
+	</product>
+	<product>
+		<nazwa> Makaron </nazwa>
+		<cena> 3,80 </cena>
+		<ilosc_w_magazynie> 40 </ilosc_w_magazynie>
+	</product>
+	</shelf>
+	<shelf>
+	<product>
+		<nazwa> Czekolada </nazwa>
+		<cena> 5,10 </cena>
+		<ilosc_w_magazynie> 10 </ilosc_w_magazynie>
+	</product>
+	<product>
+		<nazwa> Kawa </nazwa>
+		<cena> 20,20 </cena>
+		<ilosc_w_magazynie> 13 </ilosc_w_magazynie>
+	</product>
+	</shelf>
+	</section>
+	<section type="papiernicze">
+	<shelf>
+	<product>
+		<nazwa> Ryza papieru </nazwa>
+		<cena> 12,60 </cena>
+		<ilosc_w_magazynie> 70 </ilosc_w_magazynie>
+	</product>
+	<product>
+		<nazwa> Zeszyt </nazwa>
+		<cena> 3,80 </cena>
+		<ilosc_w_magazynie> 25 </ilosc_w_magazynie>
+	</product>
+	</shelf>
+	<shelf>
+	<product>
+		<nazwa> Zszywacz </nazwa>
+		<cena> 25,40 </cena>
+		<ilosc_w_magazynie> 7 </ilosc_w_magazynie>
+	</product>
+	<product>
+		<nazwa> Nożyczki </nazwa>
+		<cena> 10,80 </cena>
+		<ilosc_w_magazynie> 57 </ilosc_w_magazynie>
+	</product>
+	</shelf>
+	</section>
+	<section type="odziez">
+	<shelf>
+	<product>
+		<nazwa> Spodnie </nazwa>
+		<cena> 40,50 </cena>
+		<ilosc_w_magazynie> 15 </ilosc_w_magazynie>
+	</product>
+	<product>
+		<nazwa> Skarpety </nazwa>
+		<cena> 18,30 </cena>
+		<ilosc_w_magazynie> 40 </ilosc_w_magazynie>
+	</product>
+	</shelf>
+	<shelf>
+	<product>
+		<nazwa> Bluza </nazwa>
+		<cena> 60,20 </cena>
+		<ilosc_w_magazynie> 19 </ilosc_w_magazynie>
+	</product>
+	<product>
+		<nazwa> Koszulka </nazwa>
+		<cena> 28,40 </cena>
+		<ilosc_w_magazynie> 16 </ilosc_w_magazynie>
+	</product>
+	</shelf>
+	</section>
+	<section type="alkohole">
+	<shelf>
+	<product>
+		<nazwa> Rum </nazwa>
+		<cena> 45,90 </cena>
+		<ilosc_w_magazynie> 30 </ilosc_w_magazynie>
+	</product>
+	<product>
+		<nazwa> Whisky </nazwa>
+		<cena> 95,40 </cena>
+		<ilosc_w_magazynie> 23 </ilosc_w_magazynie>
+	</product>
+	</shelf>
+	<shelf>
+	<product>
+		<nazwa> Likier </nazwa>
+		<cena> 35,60 </cena>
+		<ilosc_w_magazynie> 52 </ilosc_w_magazynie>
+	</product>
+	</shelf>
+	</section>
+</store>

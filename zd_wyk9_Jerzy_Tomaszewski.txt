@@ -1,0 +1,45 @@
+Zad. 1.
+a) 3,29 Euro 
+kwerenda: 15 PLN to euro
+
+b) Man 1:0 Aston (01.01.21)
+Man 1:0 Wolverhampton (29.12.20)
+Man 2:2 Leicester (26.12.20)
+Man 2:0 Everton (23.12.20)
+Man 6:2 Leeds (20.12.20)
+kwerenda: manchester united scores last 5 games
+
+c) ur. 18 lipca 1918, zm. 5 grudnia 2013
+kwerenda : Nelson Mandela
+
+Zad. 2.
+a) pokój: B2-35
+dyżury: wtorki 12:00-13:00 oraz środy 9:00-10:00
+kwerenda: "Rafał Jaworski" wmi.amu.edu.pl
+
+b)
+kwerenda: "edu.pl" -UAM
+
+Zad. 3.
+a) bardzo ciekawy kształt funkcji 
+zapytanie: plot f(x)=cos(x^2)-2sin(x^3)
+
+b) 3x^2-2x+5
+zapytanie: derivative of f(x)=x^3-x^2+5x
+
+c) max=5 at x=0
+zapytanie: maximize f(x) = -x^2 +5
+
+Zad. 4.
+a)Walt Disney, Werner Heisenberg, Morgan J. Freeman, 
+Józef Piłsudzki, Doctor Dré
+zapytanie: people born on december 5
+
+b) 12 maja 1942
+zapytanie: second tuesday of may 1942
+
+c) .--- . .-. --.. -.--   - --- -- .- ... --.. . .-- ... -.- ..
+zapytanie: Jerzy Tomaszewski in morse code
+
+Zad. 5.
+https://docs.google.com/document/d/1GTg---UjfFrE7iYCmH3_8xR6dXyaOmtR0WuHhSgVY70/edit?usp=sharing
